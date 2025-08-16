@@ -528,7 +528,7 @@ async function run() {
       booking.createdAt = new Date();
       const result = await bookingsCollection.insertOne(booking);
       res.json(result);
-    });
+    })
 
     //manage bookings by only get
 
