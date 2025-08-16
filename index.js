@@ -82,6 +82,10 @@ async function run() {
       next();
     };
 
+   
+
+
+
     app.get("/users/search", async (req, res) => {
       const emailQuery = req.query.email;
       if (!emailQuery) {
@@ -468,6 +472,8 @@ async function run() {
         res.status(500).json({ error: "Failed to fetch courts" });
       }
     });
+
+
 
     app.get("/admin/courts", async (req, res) => {
       try {
