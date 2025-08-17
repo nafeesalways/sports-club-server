@@ -429,7 +429,7 @@ async function run() {
         console.error(err);
         res.status(500).json({ error: "Failed to fetch members" });
       }
-    });
+    });              
 
     app.delete("/admin/members/:email", async (req, res) => {
       const { email } = req.params;
