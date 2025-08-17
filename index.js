@@ -460,7 +460,7 @@ async function run() {
       } catch (err) {
         res.status(500).json({ error: "Failed to fetch users" });
       }
-    });
+    });       
     //for courts
 
     app.get("/courts",async (req, res) => {
