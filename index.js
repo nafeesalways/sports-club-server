@@ -338,7 +338,7 @@ async function run() {
         _id: new ObjectId(id),
       });
       res.json({ success: result.deletedCount > 0 });
-    });
+    });   
 
     app.get("/admin/stats", verifyFBToken, verifyAdmin, async (req, res) => {
       try {
