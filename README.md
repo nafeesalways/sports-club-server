@@ -16,8 +16,8 @@ This server powers the full-stack Sports Club web app with secure RESTful APIs, 
 ## 🔧 Tech Stack
 
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB with Mongoose
-- **Authentication**: JWT
+- **Database**: MongoDB
+- **Authentication**: Firebase Token
 - **Payment**: Stripe
 - **Other Tools**: dotenv, CORS, Express middleware
 
@@ -40,7 +40,7 @@ This server powers the full-stack Sports Club web app with secure RESTful APIs, 
 
 ![Sports Club Server Screenshot](https://images.unsplash.com/photo-1707664635804-5cdd900a754e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BvcnRzJTIwY291cnRzfGVufDB8fDB8fHww)
 
-> Example: Server running locally with `/api/courts` endpoint in Postman.
+
 
 ---
 
