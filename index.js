@@ -482,7 +482,7 @@ async function run() {
       } catch (err) {
         res.status(500).json({ error: "Failed to fetch courts" });
       }
-    });
+    });      
     app.post("/admin/courts", async (req, res) => {
       const { name, location, surface, image, slot, price, email } = req.body;
       if (!name || !location) {
