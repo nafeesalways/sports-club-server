@@ -439,7 +439,7 @@ async function run() {
       } catch (err) {
         res.status(500).json({ error: "Failed to delete member" });
       }
-    });
+    });     
     //for allUsers
 
     app.get("/admin/users", async (req, res) => {
